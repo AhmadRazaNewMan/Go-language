@@ -16,6 +16,6 @@ func main() {
 	//Comma Ok or Comma Err syntacs in go language there is no try and catch the go treats the error also as an error
 
 	input, _ := reader.ReadString('\n')
-	fmt.Println("Thanks for Rating", input)
+	fmt.Println("Thanks for Rating", input)  // The Type of the input is String So now Will now handle it 
 
 }

@@ -10,7 +10,7 @@ import (
 
 func main() {
 	fmt.Println("Now handling the Errors in this File")
-	fmt.Println("Please rate our pizza between 1 and 5")
+	fmt.Println("Please rate our pizza between 1 and 4")
 
 	reader := bufio.NewReader(os.Stdin)
 	input, _ := reader.ReadString('\n')
